@@ -28,17 +28,6 @@ func mayhemit(bytes []byte) int {
             test.SplitPath(content)
             return 0
 
-        case 2:
-            content := string(bytes)
-
-            length := len(content)
-            str1 := content[0:length/2]
-            str2 := content[length/2:length-1]
-
-            var test violetear.Params
-            test.Add(str1, str2)
-            return 0
-
         default:
             content := string(bytes)
             var test violetear.Trie
