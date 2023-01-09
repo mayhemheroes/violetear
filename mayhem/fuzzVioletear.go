@@ -1,4 +1,4 @@
-package fuzz
+package fuzzVioletear
 
 import "strconv"
 import "github.com/nbari/violetear/v7"
